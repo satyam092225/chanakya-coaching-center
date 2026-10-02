@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+
+}
+
+nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 18px;
+
+}
+
+nav a:hover{
+    color: #00bfff;
+
+}
+
+/* hero section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: white;
+
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+button:hover {
+    background-color: #0056b3;
+
+}
+
+/* about section */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.about p {
+    font-size: 18px;
+}
+
+/* footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+
+}
